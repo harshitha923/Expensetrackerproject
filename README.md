@@ -25,3 +25,15 @@ A RESTful backend service for an Expense Tracking application built with Java an
 - Maven
 
 ---
+
+## 📬 API Endpoints
+
+| Method | Endpoint            | Description               |
+|--------|---------------------|---------------------------|
+| POST   | /api/expenses       | Add a new expense         |
+| GET    | /api/expenses       | Get all expenses          |
+| GET    | /api/expenses/{id}  | Get a specific expense    |
+| PUT    | /api/expenses/{id}  | Update an expense         |
+| DELETE | /api/expenses/{id}  | Delete an expense         |
+
+---
