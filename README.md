@@ -1,17 +1,27 @@
-# Expensetrackerproject
-## Project Overview
-The Expense Tracker System is a backend application built with Spring Boot that helps users manage their expenses efficiently. It provides features for tracking expenses, generating reports, and analyzing spending patterns.
-## Technologies Used
-Backend: Java, Spring Boot, Spring Security, JPA/Hibernate 
+# 💰 Expense Tracker Manager - Backend (Spring Boot)
 
+A RESTful backend service for an Expense Tracking application built with Java and Spring Boot. The API supports secure user authentication and CRUD operations on expense records, providing structured endpoints for building a full-featured financial tracker.
 
-Database: MySQL
+---
 
+## 🚀 Features
 
-Authentication: JWT (JSON Web Tokens)
+- 🔐 User Authentication (JWT)
+- 📦 CRUD operations for expense records
+- 📊 Filter expenses by date, category, or amount
+- 🗃️ MySQL-based persistent storage
+- 🔧 Built with layered architecture: Controller, Service, Repository
+- 🌐 RESTful APIs for easy frontend integration
 
+---
 
-Build Tool: Maven
+## 🛠️ Tech Stack
 
+- Java 17+
+- Spring Boot
+- Spring Data JPA
+- Hibernate
+- MySQL
+- Maven
 
-IDE : Intelliji idea
+---
